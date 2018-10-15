@@ -1,0 +1,14 @@
+body {
+    background-image: url("image/portafolio.png");
+    text-align: center;
+  }	
+  
+  .card {
+    margin: 50px;
+    padding: 0px;
+  }
+
+  .card-body {
+    margin: 0px;
+    padding: 0px;
+  }
