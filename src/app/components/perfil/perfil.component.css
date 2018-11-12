@@ -1,4 +1,5 @@
-body{
-    background-image: url("/assets/images/slider_fondo.png");
-
+body {
+background-image: url("/assets/images/perfil_fondo.png");
+margin: 0px;
+padding: 6rem;
 }
