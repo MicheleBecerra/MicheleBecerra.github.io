@@ -1,5 +1,18 @@
-body {
-background-image: url("/assets/images/perfil_fondo.png");
+div {
+color: rgb(48, 48, 189);
+/* background-image: url("/assets/images/perfil_fondo.png");  */
+background-color: rgba(241, 237, 232, 0.938);
 margin: 0px;
-padding: 6rem;
+height: 600px;
+
+}
+article {
+    padding: 13rem;
+    align-content: center; 
+}
+img {
+    align-content: center;
+    height: 100%;
+    padding: 3rem;
+ 
 }
