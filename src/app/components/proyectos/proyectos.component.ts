@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class ProyectoComponent {
     public nombre_proyecto = 'Mis proyectos' ;
-    public lista_proyectos = '' ;
 }
