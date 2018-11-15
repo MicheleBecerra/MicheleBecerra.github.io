@@ -4,12 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { SkillsComponent } from './components/skills/skills.component';
-
+import { ProyectoComponent } from './components/proyectos/proyectos.component';
 @NgModule({
   declarations: [
     AppComponent,
     PerfilComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProyectoComponent
   ],
   imports: [
     BrowserModule
