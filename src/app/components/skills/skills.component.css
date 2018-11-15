@@ -6,3 +6,16 @@ div {
     height: 500px;
     
     }
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: azure;
+        padding: 5px;
+        font-size: 35px;
+        text-align: center;
+    }
+    li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: azure;
+        padding: 10px;
+        font-size: 30px;
+    }
