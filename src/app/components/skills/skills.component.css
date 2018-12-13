@@ -1,10 +1,10 @@
-div {
+body {
     /* color: rgb(48, 48, 189); */
-    background-image: url("/assets/images/perfil_fondo.png");  
+    background-image: url("/assets/images/perfil_fondo.png");
     /* background-color: rgba(241, 237, 232, 0.938); */
-    margin: 0px;
-    height: 500px;
-    
+    padding: 0rem;
+    margin: 0rem;
+    height: 200% ;
     }
     h2 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,9 +13,15 @@ div {
         font-size: 35px;
         text-align: center;
     }
-    li{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: azure;
-        padding: 10px;
-        font-size: 30px;
+    header{
+      padding: 2rem;
     }
+    .img-responsive{
+    margin: 1rem;
+    height: 6rem;
+    }
+
+
+
+
+
