@@ -1,53 +1,75 @@
-<div class = "row" >
-        <div class="col col-md-6">
-            
-            <article style="font-size-adjust: inherit">
-             <h2>
-                {{ nombre_proyecto }}
-            </h2>
-            <ul>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://michbecerra.github.io/cdmx-2018-06-bc-core-am-cipher/src/index.html">Cifrado César</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://michelebecerra.github.io/DataLabo-2da-entrega/dashboard/src/index.html"> Data Dashboard</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://marfloresrayon.github.io/cdmx-2018-06-bc-core-am-social-network/src/views/login.html"> UX - Red Social</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://brendasanrey.github.io/proyecto-5-coworking-developer/src/index.html">Registro de Visitantes Cow-Working</a></h2>
-                        </li>
-                        <li>
-                        <h2><a target="_blank" rel="noopener" href="https://brendasanrey.github.io/proyecto-5-coworking-developer/src/views/AdminLogin.html">Vista Administrador Cow-Working</a></h2>
-                    </li>
-                </ul>   
-            </article>
-
+<main>
+  <header>
+    <h2>
+      {{ nombre_proyecto }}
+    </h2>
+  </header>
+  <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="/src/assets/images/cipher.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Cifrado César</h5>
+          <p class="card-text">Éste proyecto consistio en realizar un encriptador de texto. Se introduce el texto y un número secreto, y te retornará tu mensaje cifrado. Éste mismo mensaje lo puedes enviar a tu crush junto con el número secreto y él o ella podra introducirlo en la web app y podrá rescatar el mensaje secreto!!</p>
         </div>
-        <div class="col col-md-6" >
-            
-            <article style="font-size-adjust: inherit">
-                <h2> 
-                    <hr/>                          
-                </h2>
-                <ul>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://michelebecerra.github.io/cdmx-2018-06-bc-core-pm-foodmap/index1.html">Food Map</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://michelebecerra.github.io/cdmx20181-Track-FE-themovieapi/views/login.html">The MoBee App-I</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://social-network-react.herokuapp.com/">Red Social con React (Inicio de seisón)</a></h2>
-                    </li>
-                    <li>
-                        <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Burguer Queen</a></h2>
-                    </li>
-
-                </ul>
-
-                </article>
-            
+        <a href="https://github.com/MicheleBecerra/cdmx-2018-06-bc-core-am-cipher" class="btn btn-info">Código</a>
+        <a href="https://michbecerra.github.io/cdmx-2018-06-bc-core-am-cipher/src/index.html" class="btn btn-info">Ejemplo</a>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src=".../100px160/" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+          <footer class="blockquote-footer">
+            <small>
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src=".../100px260/" alt="Card image">
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
     </div>
+
+</main>
+
