@@ -1,17 +1,25 @@
-div {
-    color: rgb(48, 48, 189);
+main {
+    color: rgb(2, 2, 2);
     /* background-image: url("/assets/images/perfil_fondo.png");  */
-    background-color: rgba(241, 237, 232, 0.938);
+    background-color: rgba(159, 163, 179, 0.938);
     margin: 0px;
-
+    }
+    h1{
+      padding: 10px;
+      text-align: center;
     }
 .btn{
   margin: 15px;
 }
+.card-text{
+  font-size: 16px;
+  color: rgb(53, 48, 48);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .img-responsive {
         /* display: block;    */
         align-content: center;
         /* height: 90%; */
         padding: 5rem;
-
-    }
+}
