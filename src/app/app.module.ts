@@ -6,6 +6,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectoComponent } from './components/proyectos/proyectos.component';
 import { BarraComponent} from './components/barra/barra.component';
+import { ContactoComponent} from './components/contacto/contacto.component'
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BarraComponent} from './components/barra/barra.component';
     PerfilComponent,
     SkillsComponent,
     ProyectoComponent,
-    BarraComponent
+    BarraComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule
