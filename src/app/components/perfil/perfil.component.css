@@ -1,20 +1,21 @@
-div {
+.container-fluid {
 color: rgb(48, 48, 189);
 /* background-image: url("/assets/images/perfil_fondo.png");  */
 background-color: rgba(241, 237, 232, 0.938);
 margin: 0px;
-height: 500px;
+width: 100%;
+
 }
 article {
-    /* padding: 7rem; */
-    align-content: center; 
+
+    align-content: center;
     font-size: 18px;
     padding-top: 5rem;
 }
 .img-responsive {
-    /* display: block;    */
+
     align-content: center;
-    /* height: 90%; */
+
     padding: 5rem;
- 
+
 }
