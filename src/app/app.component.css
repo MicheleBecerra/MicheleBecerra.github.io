@@ -1,10 +1,14 @@
- body{
-  background-image: url("/assets/images/slider_fondo.png");
+section{
+  background-image: url("/../../assets/images/slider_fondo.png");
  }
- .img-responsive {
-    padding-top: 5rem;
+.img-responsive {
+
+  padding: 5rem;
+
     }
-    #nombre-logo{
-        padding-top: 15rem;
+#nombre-logo{
+  padding: 5rem;
+
+
     }
 
