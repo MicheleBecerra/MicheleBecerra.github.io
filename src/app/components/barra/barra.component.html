@@ -1,24 +1,24 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img class="card-img-top" id="foto" src="../../../assets/images/logo_plasta.png" alt="Card image cap">
+  <a [routerLink]="['/home']" class="navbar-brand" href="#">
+    <img  class="card-img-top" id="foto" src="../../../assets/images/logo_plasta.png" alt="Card image cap">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0  justify-content-end">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fas fa-user-circle"></i>Perfil</a>
+        <a [routerLink]="['/perfil']" class="nav-link" href="#"><i class="fas fa-user-circle"></i>Perfil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Conocimientos</a>
+        <a [routerLink]="['/skills']" class="nav-link" href="#"><i class="fas fa-cogs"></i> Conocimientos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-edit"></i> Proyectos</a>
+        <a [routerLink]="['/proyecto']" class="nav-link" href="#"><i class="fas fa-edit"></i> Proyectos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-thumbtack"></i>  Contacto</a>
+        <a [routerLink]="['/contacto']" class="nav-link" href="#"><i class="fas fa-thumbtack"></i>  Contacto</a>
       </li>
     </ul>
   </div>

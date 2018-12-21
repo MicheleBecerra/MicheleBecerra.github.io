@@ -1,0 +1,11 @@
+main{
+
+    background-image: url("/../../assets/images/slider_fondo.png");
+  }
+  .img-responsive {
+    padding: 5rem;
+      }
+  #nombre-logo{
+    padding: 5rem;
+      }
+
